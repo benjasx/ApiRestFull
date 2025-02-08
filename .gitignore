@@ -1,0 +1,44 @@
+# Ignorar node_modules en ambas carpetas
+client/node_modules/
+server/node_modules/
+
+# Archivos de entorno
+.env
+.env.local
+.env.development
+.env.production
+
+# Archivos de sistema y editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Dependencias y caché
+.cache/
+.tmp/
+__pycache__/
+venv/
+env/
+
+# Build y distribución
+dist/
+build/
+out/
+
+# Pruebas y cobertura
+coverage/
+.nyc_output/
+
+# Archivos de paquetes y bloqueos (opcional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Archivos de base de datos (backend)
+*.db
+*.sqlite
